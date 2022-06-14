@@ -177,7 +177,7 @@ As you can see, when calculating using 8 attributes, we get the same accuracy in
 ![image](https://user-images.githubusercontent.com/58222828/173660955-4531324c-0667-4758-9786-9a3bfc1e46e3.png)
 
 ![image](https://user-images.githubusercontent.com/58222828/173660986-5b7be481-4cc9-4c33-a33f-88fed920b503.png)
-                            blue dashed lines - KNeighborClassifier 
+                            blue dashed lines - KNeighborClassifier &nbsp;&nbsp;&nbsp;&nbsp;
                             yellow line - My Model
 
 Thus, although the optimal k and accuracy for this split are the same for both models, there is a difference of 2% -5% on the best accuracy between the different splits. In most splits, the average accuracy for each k is 0.5% to 2% greater in the KNeighborsClassifier. Due to the context of the dataset, no significant change in accuracy is observed when trying to differentiate the models from the number of false-negatives in the confusion matrix. Also, when we delete two categorical attributes from the calculation, we encounter an increase in accuracy for both models.
